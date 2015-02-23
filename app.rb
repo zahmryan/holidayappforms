@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'holidapi'
 
-class MyWebApp < Sinatra::Base
+class HolidayFormApp < Sinatra::Base
   get '/' do
     erb :index
   end
